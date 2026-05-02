@@ -190,7 +190,7 @@ export default function LPWorkshop() {
             .lp-form { width: 100% !important; padding: 32px 20px !important; border-radius: 20px !important; }
             .lp-hero-h1 { font-size: 28px !important; line-height: 40px !important; }
             .lp-hero-badge { gap: 10px !important; margin-bottom: 24px !important; }
-            .lp-nvidia-logo { height: 36px !important; }
+            .lp-nvidia-logo { height: 52px !important; }
             .lp-info-cards { gap: 8px !important; justify-content: center !important; margin-bottom: 32px !important; }
             .lp-info-card { width: 140px !important; min-height: 90px !important; padding: 14px 16px !important; }
             .lp-note-pill { padding: 10px 16px !important; }
@@ -228,7 +228,7 @@ export default function LPWorkshop() {
             .lp-hero { padding: 24px 16px 24px !important; }
             .lp-hero-h1 { font-size: 22px !important; line-height: 32px !important; margin-bottom: 12px !important; }
             .lp-hero-desc { font-size: 14px !important; line-height: 20px !important; }
-            .lp-nvidia-logo { height: 28px !important; }
+            .lp-nvidia-logo { height: 48px !important; }
             .lp-info-cards { flex-direction: row !important; gap: 6px !important; }
             .lp-info-card { width: calc(33% - 4px) !important; min-height: 80px !important; padding: 10px 8px !important; border-radius: 12px !important; }
             .lp-info-card-label { font-size: 10px !important; }
