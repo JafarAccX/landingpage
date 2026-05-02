@@ -94,15 +94,7 @@ const InfoCard = ({ label, value, color }: { label: string; value: string; color
     </div>
 );
 
-const GreenIcon = () => (
-    <div style={{
-        width: 32, height: 32, background: "rgba(118,185,0,0.1)",
-        borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center",
-        border: `1px solid ${C.green}`
-    }}>
-        <div style={{ width: 8, height: 8, background: C.green, borderRadius: "50%", boxShadow: `0 0 10px ${C.green}` }} />
-    </div>
-);
+
 
 const ValueRow = ({ n, text, color }: { n: string; text: string; color: string }) => (
     <div className="lp-value-row" style={{
@@ -599,7 +591,7 @@ export default function LPWorkshop() {
                                 zIndex: 1
                             }}>
                                 <img src={mentorImg} alt="Shashank Gupta" style={{
-                                    position: "absolute", bottom: 0, left: "50%", transform: "translateX(-50%)",
+                                    position: "absolute", left: "50%", transform: "translateX(-50%)",
                                     width: "72%",
                                     bottom: "-10px", height: "auto"
                                 }} />
